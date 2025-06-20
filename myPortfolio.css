@@ -1,0 +1,174 @@
+/* body */
+body {
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom, #a9eeee, lightcyan, whitesmoke);
+  background-attachment: scroll;
+  margin: 0;
+}
+/*
+.body {
+  height: 100%;
+  text-align: center;
+  background-attachment: scroll;
+  background: linear-gradient(to bottom, #a9eeee, lightcyan, whitesmoke);
+}
+*/
+.content {
+  padding: 0 100px;
+}
+
+/* ヘッダー*/
+.header {
+  background-color: #a9eeee;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+.logo {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.nav{
+  margin-left: auto;
+}
+.top-menu{
+  display: flex;
+}
+.menu-item {
+  margin-right: 35px;
+}
+
+/* メイン */
+.main {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+.main-title {
+  font-size: 3rem;
+  font-family: Silom;
+  line-height: 0.3; 
+  color: turquoise;
+  padding-top: 70px;
+}
+.main-img {
+  height: 15rem;
+}
+.main-dispriction{
+  font-weight: bold;
+  margin-bottom: 90px;
+}
+.me-img {
+  width: 35%;
+  border-radius: 70%;
+}
+
+/* about, works, contact のタイトル*/
+.content-title{
+  font-size: 2.5rem;
+  font-family: Silom;
+}
+
+/* about */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.about-descriptin {
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+/* works */
+.work-title {
+  font-size: 1.1rem;
+}
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.honey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.work-dispriction {
+  line-height: 1.5rem;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
+}
+.honey-imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.honey-img {
+  max-width: 400px;
+  width: 100%;
+}
+.works-img {
+  width: 100%;
+  max-width: 500px;
+}
+@media (min-width: 768px) {
+  .works-container {
+    flex-direction: row;
+    text-align: left;
+  }
+  .work-dispriction {
+    max-width: 50%;
+    text-align: left;
+  }
+  .works-img {
+    max-width: 50%;
+  }
+}
+
+/* contact */
+.contact-label {
+  font-size: 1.2rem;
+  margin: 8px;
+}
+.contact-discription {
+  font-size: 1.5rem;
+}
+.contact-input {
+  width: 50% ;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 7px 0;
+}
+
+.contact-textarea {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.contact-btn {
+  background-color: #8dc9f0;
+  border: 1px solid black;
+}
