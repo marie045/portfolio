@@ -52,6 +52,10 @@ body {
   font-size: 3rem;
   font-family: Silom;
   line-height: 0.3; 
+<<<<<<< HEAD
+=======
+  line-height: 1.2; 
+>>>>>>> 5ccd185 (スマホ対応のCSS修正)
   color: turquoise;
   padding-top: 70px;
 }
@@ -61,6 +65,10 @@ body {
 .main-dispriction{
   font-weight: bold;
   margin-bottom: 90px;
+<<<<<<< HEAD
+=======
+  margin-bottom: 40px;
+>>>>>>> 5ccd185 (スマホ対応のCSS修正)
 }
 .me-img {
   width: 35%;
@@ -171,4 +179,28 @@ body {
 .contact-btn {
   background-color: #8dc9f0;
   border: 1px solid black;
+<<<<<<< HEAD
 }
+=======
+}
+
+@media screen and (max-width: 767px) {
+  .main-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .main-dispriction {
+    margin-bottom: 40px;
+  }
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .me-img {
+    width :70% ;
+  }
+  .contact-input {
+    width: 90%;
+  }
+}  
+>>>>>>> 5ccd185 (スマホ対応のCSS修正)
